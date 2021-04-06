@@ -22,6 +22,7 @@ enum Windows: String{
     case open = "Окна открыты"
     case close = "Окна закрыты"
 }
+NSCondition()
 
 enum Motor: String{
     case start = "Двигатель запущен"
